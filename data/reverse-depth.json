@@ -27,6 +27,9 @@
       "offset": "0"
     }
   ],
+  "unit_aliases": {
+    "g/cm3": ["G/C3", "g/c3"]
+  },
   "window_metres": [
     "30.48",
     "30.7848"
