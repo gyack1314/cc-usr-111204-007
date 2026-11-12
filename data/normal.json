@@ -1,0 +1,42 @@
+{
+  "runs": [
+    {
+      "run_id": "down-feet",
+      "well_id": "demo-cavern",
+      "file": "down.las",
+      "depth_column": 0,
+      "depth_scale": "381/1250",
+      "depth_offset": "0"
+    },
+    {
+      "run_id": "up-metres",
+      "well_id": "demo-cavern",
+      "file": "up.las",
+      "depth_column": 0,
+      "depth_scale": "1",
+      "depth_offset": "0"
+    }
+  ],
+  "curve_map": [
+    {
+      "run_id": "down-feet",
+      "column": 1,
+      "name": "density",
+      "unit": "g/cm3",
+      "scale": "1",
+      "offset": "0"
+    },
+    {
+      "run_id": "up-metres",
+      "column": 1,
+      "name": "density",
+      "unit": "g/cm3",
+      "scale": "1",
+      "offset": "0"
+    }
+  ],
+  "window_metres": [
+    "30.48",
+    "30.7848"
+  ]
+}
